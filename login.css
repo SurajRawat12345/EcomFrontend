@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.login-container{
+    width : 100%;
+    height : 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin : auto;
+    padding : 1rem 0rem 5rem 0rem ;
+    background-color: #00ffff;
+}
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #071231;
+}
+.log{
+    width: 20rem;
+}
+.email-detail{
+    padding-bottom: 0.5rem;
+    font-weight: bolder ;
+}
+input.mail, input.passwo{
+    width: 20rem;
+}
+::placeholder{
+    color: #ffc832; 
+}
+.pass{
+    padding-bottom: 4rem;
+    font-weight: bolder;
+}
+.login-headings{
+    font-size: 1.5rem;
+}
+label.mail , label.password{
+    text-align: left;
+}
+.login{
+    width: 20rem;
+    background-color: #ffc832;
+    border: 0.25rem solid #000000;
+    font-size: 1.5rem ;
+    font-weight: bold;
+    border-radius: 0.6rem;
+}
+/* ---------------- Responsiveness ---------------- */
+@media screen and (max-width : 450px){
+    .log, input.mail , input.passwo , .login{
+        width : 15rem;
+    }
+    .pass{
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width : 330px){
+    .log, input.mail , input.passwo , .login{
+        width : 12rem;
+    }
+}
+@media screen and (max-width : 250px){
+    .log, input.mail , input.passwo , .login{
+        width : 10rem;
+    }
+}
+@media screen and (max-width : 215px){
+    .log, input.mail , input.passwo , .login{
+        width : 8rem;
+    }
+}

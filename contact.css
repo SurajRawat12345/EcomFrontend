@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.head{
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-image{
+    width : 16rem;
+}
+.cu-form{
+    font-family: 'Times New Roman', Times, serif;
+}
+input.cu-mail{
+    width: 20rem;
+}
+.cu-name{
+    padding-bottom:0.8rem;
+    font-weight: bold;
+}
+input.cu-email{
+    width:20rem;
+}
+.cu-email1{
+    padding-bottom:0.8rem;
+    font-weight: bolder;
+}
+.message{
+    padding-bottom:0.8rem;
+    font-weight: bolder;
+}
+input.cu-msg{
+    width:20rem;
+}
+.submit{
+    width:20rem;
+    font-weight: bolder;
+    background-color: #ffc832;
+    padding:0.3rem;
+}
+.sharpy{
+    font-size: 1.5rem;
+}
+::placeholder{
+    color: #ffc832;
+}
+/* --------------- Responsiveness ---------------- */
+@media screen and (max-width : 800px){
+    *{
+        font-size: 16px; 
+    }
+    .cu-mail ,.cu-email ,.cu-msg ,.submit{
+        font-size : 1.5rem;
+    }
+}
+@media screen and (max-width : 650px){
+    *{
+        font-size: 15px; 
+    }
+    .contact-us{
+        flex-direction: column;
+    }
+    .contact-image{
+        width : 14rem;
+    }
+}
+@media screen and (max-width : 500px){
+    .contact-image{
+        width : 12rem;
+    }
+}
+@media screen and (max-width : 400px){
+    .contact-image{
+        width : 10rem;
+    }
+    input.cu-mail ,input.cu-email ,input.cu-msg ,.submit{
+        width : 15rem;
+    }
+}
+@media screen and (max-width : 300px){
+    .head{
+        font-size : 2.5rem;
+    }
+}
+@media screen and (max-width : 250px){
+    .head{
+        font-size : 2rem;
+    }
+    input.cu-mail ,input.cu-email ,input.cu-msg ,.submit{
+        width : 10rem;
+    }
+}

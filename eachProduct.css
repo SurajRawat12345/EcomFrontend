@@ -1,0 +1,86 @@
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing : border-box;
+    font-size : 20px;
+    text-decoration : none;
+}
+.content{
+    padding : 0% 10% ;
+    background-color: #00ffff;
+    padding-bottom : 1rem;
+}
+.content-title{
+    font-size: 2rem;
+    font-family: Verdana;
+    text-align: center;
+    padding : 1rem 0.5rem 2rem 0.5rem;
+    font-weight: bold;
+}
+.clo{
+    display : flex;
+    justify-content: space-evenly;
+}
+.clo1{
+    width : 50%;
+    text-align: center;
+    background-color: #ff0638;
+    padding-top: 2rem;
+}
+.clo2{
+    margin-right: 10%;
+}
+.clo3{
+    margin-left: 10%;
+}
+.clo-image{
+    width : 10rem;
+    height : 13.5rem;
+    border-radius: 0.6rem;
+}
+.clo-details{
+    padding : 1rem 0.5rem;
+}
+.clo-price{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.clo-line{
+    padding : 0.5rem
+}
+.cart-add{
+    padding : 0.5rem;
+    font-weight: bold;
+    background-color: #dc143c;
+    border : 0.25rem solid #000000;
+    border-radius: 0.6rem;
+    cursor : pointer;
+}
+.cart-add:hover , .cart-add:active{
+    background-color: #00ffff;
+}
+
+.clo4{
+    margin-top: 1rem;
+}
+/* ------------ Responsive ------------- */
+@media screen and (max-width : 650px) {
+    .clo{
+        flex-direction: column;
+    }    
+    .clo1{
+        width : 100%;
+        margin-bottom: 2rem;
+    }
+    .clo2{
+        margin-right: 0rem;
+    }
+    .clo3{
+        margin-left: 0rem;
+    }
+}
+@media screen and (max-width : 300px){
+    .clo-image{
+        width : 6rem;
+    }
+}
